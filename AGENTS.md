@@ -1,3 +1,17 @@
+# tfg-rutas-moto: contexto para IAs
+
+Trabajo de Fin de Grado de DAW (2026-27): una app web de rutas en moto al estilo de Strava. Stack: Laravel 13, SQLite en local, Vite, Leaflet con OpenStreetMap. Responde y documenta en español.
+
+## Flujo de ramas (obligatorio)
+
+Lee `CONTRIBUTING.md` antes de hacer cambios. En resumen:
+
+- Nunca hagas commits ni push directos a `main`, `staging` o `develop`.
+- Cada tarea o hotfix va en su propia rama creada desde `develop`, con el prefijo `feature/` o `hotfix/` y una descripción breve en minúsculas con guiones. Ejemplo: `feature/subir-ruta-desde-gpx`.
+- Los pull requests van siempre hacia `develop`. Nunca abras un PR hacia `staging` ni hacia `main`.
+- Solo el revisor/administrador (Markel, `markelmartin06`) aprueba y mergea. No mergees tus propios PR.
+- El paso de `develop` a `staging` y de `staging` a `main` lo hace Markel con un PR que él revisa.
+
 <laravel-boost-guidelines>
 # Laravel Application
 
